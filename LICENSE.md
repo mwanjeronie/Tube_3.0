@@ -1,11 +1,10 @@
-
 PiOS License
 
-Copyright (C) 2024 mwanje ronnie
+Copyright (C) 2022 Pi Core Team
 
-Permission is hereby granted by the application software developer (“mwanje ronnie”), free
+Permission is hereby granted by the application software developer (“Software Developer”), free
 of charge, to any person obtaining a copy of this application, software and associated 
-documentation files (“Tube 3.0”), which was developed by the Software Developer for use on 
+documentation files (the “Software”), which was developed by the Software Developer for use on 
 Pi Network, whereby the purpose of this license is to permit the development of derivative works 
 based on the Software, including the right to use, copy, modify, merge, publish, distribute, 
 sub-license, and/or sell copies of such derivative works and any Software components incorporated 
