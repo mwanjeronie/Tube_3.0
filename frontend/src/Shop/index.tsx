@@ -3,6 +3,7 @@ import axios from 'axios';
 import ProductCard from './components/ProductCard';
 import SignIn from './components/SignIn';
 import Header from './components/Header';
+import Nav from './components/Nav';
 
 type MyPaymentMetadata = {};
 
@@ -127,6 +128,7 @@ export default function Shop() {
 
   return (
     <>
+      <Nav user={user} onSignIn={signIn} onSignOut={signOut}/>
       <Header user={user} onSignIn={signIn} onSignOut={signOut}/>
 
       <ProductCard
