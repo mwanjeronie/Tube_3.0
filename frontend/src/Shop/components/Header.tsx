@@ -45,7 +45,11 @@ export default function Header(props: Props) {
         </li>
         
       </ul>
-     
+    {/* <div style={{ display: "flex", gap: "10px" }}>
+      <button style={{ padding: "8px 16px", cursor: "pointer" }}>Explore</button>
+      <button style={{ padding: "8px 16px", cursor: "pointer" }}>Following</button>
+      <button style={{ padding: "8px 16px", cursor: "pointer" }}>For You</button>
+    </div> */}
       
       {/* <div style={{ textAlign: "center" }}> tube 3.0</div> */}
      

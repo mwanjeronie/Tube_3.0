@@ -10,7 +10,7 @@ interface Props {
 
 const headerStyle: CSSProperties = {
     padding: 8,
-    backgroundColor: "rgba(113, 61, 146, 0.6)", // Slightly transparent purple
+    backgroundColor: "rgba(113, 61, 146, 1)", // Slightly transparent purple
     color: "#fbb251",
     width: "100%",
     display: "flex",
@@ -24,7 +24,7 @@ const headerStyle: CSSProperties = {
 
 const buttonStyle: CSSProperties = {
     backgroundColor: "#fbb251",
-    color: "rgba(113, 61, 146, 0.6)",
+    color: "rgba(113, 61, 146, 1)",
     border: "none",
     padding: "8px 16px",
     cursor: "pointer",
