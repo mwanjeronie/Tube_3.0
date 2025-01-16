@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductCard from '../VideoCard';
-import { css } from "./Main.css";
+
+// import { css } from "./Main.css";
 export default function Main() {
 return (
     <>

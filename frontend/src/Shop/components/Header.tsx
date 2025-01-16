@@ -1,11 +1,11 @@
 import React, { CSSProperties } from "react";
 import { User } from "../";
 
-interface Props {
-  onSignIn: () => void;
-  onSignOut: () => void;
-  user: User | null
-}
+// interface Props {
+//   onSignIn: () => void;
+//   onSignOut: () => void;
+//   user: User | null
+// }
 
 const headerStyle: CSSProperties = {
   padding: 8,
@@ -22,7 +22,7 @@ const headerStyle: CSSProperties = {
   zIndex: 1000
 };
 
-export default function Header(props: Props) {
+export default function Header() {
   return (
     <header style={headerStyle}>
       
@@ -35,13 +35,13 @@ export default function Header(props: Props) {
         width: "100%" 
       }}>
         <li style={{ margin: "0 10px", color: "white", textShadow: "0 0 5px black" }}>
-          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Expore</a>
+          <a href="#" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>Explore</a>
         </li>
         <li style={{ margin: "0 10px", color: "white", textShadow: "0 0 5px black" }}>
-          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>Following</a>
+          <a href="#" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>Following</a>
         </li>
         <li style={{ margin: "0 10px", color: "white", textShadow: "0 0 5px black" }}>
-          <a href="#" style={{ color: "inherit", textDecoration: "none" }}>For You</a>
+          <a href="#" target="_blank" style={{ color: "inherit", textDecoration: "none" }}>For You</a>
         </li>
         
       </ul>
