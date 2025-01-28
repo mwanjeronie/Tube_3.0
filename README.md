@@ -1,3 +1,5 @@
+everything was smooth untill i tried to depoly the frontend 
+i guess its better to start from scatch thats it end of the project
 # Pi Demo App
 
 Pi Demo App is an example of how you can implement the various required flows in your app's code.
