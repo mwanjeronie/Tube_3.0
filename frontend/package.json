@@ -27,7 +27,9 @@
     "startNode17": "react-scripts --openssl-legacy-provider start",
     "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "homepage": "https://mwanjeronie.github.io/Tube_3.0/"
   },
   "eslintConfig": {
     "extends": [
